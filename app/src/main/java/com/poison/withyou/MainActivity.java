@@ -30,6 +30,7 @@ public class MainActivity extends BaseActivity {
 
     @OnClick(R.id.tv)
     public void onClick() {
-        Toast.makeText(this, "测试ButterKnife", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "测试ButterKnife", Toast.LENGTH_SHORT).show();
+        showDialog("测试ButterKnife!");
     }
 }
